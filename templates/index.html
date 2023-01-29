@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Cat Meme Generator </title>
+    <script src="site.js"></script>
+    <style>
+        body {
+            background-color: #fbeee1;
+<!--        background-color: #e5e5f7;-->
+            opacity: 0.8;
+            background-image:  linear-gradient(#edd0c0 1px, transparent 1px), linear-gradient(to right, #edd0c0 1px, #fbeee1 1px);
+            background-size: 40px 40px;
+        }
+
+        h1 {
+        text-align: center;
+        font-family: Bodoni;
+        font-size: 60px;
+        color: #422800;
+        }
+
+
+        .button-74 {
+          background-color: #fbeee0;
+          border: 2px solid #422800;
+          border-radius: 30px;
+          box-shadow: #422800 4px 4px 0 0;
+          color: #422800;
+          cursor: pointer;
+          display: inline-block;
+          font-weight: 600;
+          font-size: 18px;
+          padding: 0 18px;
+          line-height: 50px;
+          text-align: center;
+          text-decoration: none;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+        }
+
+        .button-74:hover {
+          background-color: #fff;
+        }
+
+        .button-74:active {
+          box-shadow: #422800 2px 2px 0 0;
+          transform: translate(2px, 2px);
+        }
+
+        @media (min-width: 768px) {
+          .button-74 {
+            min-width: 120px;
+            padding: 0 25px;
+          }
+        }
+        img{
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            border-radius: 25px;
+        }
+
+        .catbox{
+            width: 400px;
+            max-width: 100%
+            align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Let's Generate A Cat Meme! </h1>
+    <script>
+        function generatePic() {
+            const audio = new Audio("static/audio/meow.mp3");
+            audio.play();
+
+
+            <!-- Create cat array }-->
+            var cat = new Array();
+            <!-- Array of cats associated with a cat image }-->
+            cat[0] = "static/pics/images 1.PNG";
+            cat[1] = "static/pics/images 3.PNG";
+            cat[2] = "static/pics/images 2.PNG";
+            cat[3] = "static/pics/images 5.PNG";
+            cat[4] = "static/pics/images 4.PNG";
+            cat[5] = "static/pics/images 6.PNG";
+            cat[6] = "static/pics/images 7.PNG";
+            cat[7] = "static/pics/images 8.PNG";
+            cat[8] = "static/pics/images 9.PNG";
+            cat[9] = "static/pics/images 10.PNG";
+            cat[10] = "static/pics/images 11.PNG";
+            cat[11] = "static/pics/images 12.PNG";
+            cat[12] = "static/pics/images 13.PNG";
+            cat[13] = "static/pics/images 14.PNG";
+            cat[14] = "static/pics/images 15.PNG";
+            cat[15] = "static/pics/images 16.PNG";
+            cat[16] = "static/pics/images 17.PNG";
+            cat[17] = "static/pics/images 18.jpg";
+            cat[18] = "static/pics/images 19.PNG";
+            cat[19] = "static/pics/images 20.PNG";
+            cat[20] = "static/pics/images 21.PNG";
+            cat[21] = "static/pics/images 22.PNG";
+            cat[22] = "static/pics/images 23.jpg";
+            cat[23] = "static/pics/images 24.PNG";
+            cat[24] = "static/pics/images 25.PNG";
+            cat[25] = "static/pics/images 26.PNG";
+            cat[26] = "static/pics/images 27.PNG";
+            cat[27] = "static/pics/images 28.jpg";
+            cat[28] = "static/pics/images 29.jpg";
+            cat[29] = "static/pics/images 30.jpg";
+            cat[30] = "static/pics/images 31.jpeg";
+            cat[31] = "static/pics/images 32.JPG";
+            cat[32] = "static/pics/images 33.JPG";
+            cat[33] = "static/pics/images 34.JPG";
+            cat[34] = "static/pics/images 35.JPG";
+            cat[35] = "static/pics/images 36.JPG";
+            cat[36] = "static/pics/images 37.JPG";
+            cat[37] = "static/pics/images 38.JPG";
+            cat[38] = "static/pics/images 39.JPG";
+            cat[39] = "static/pics/images 40.JPG";
+            cat[40] = "static/pics/images 41.JPG";
+            cat[41] = "static/pics/images 42.JPG";
+            cat[42] = "static/pics/images 43.JPG";
+            cat[43] = "static/pics/images 44.JPG";
+            cat[44] = "static/pics/images 45.JPG";
+            cat[45] = "static/pics/images 46.JPG";
+            cat[46] = "static/pics/images 47.JPG";
+            cat[47] = "static/pics/images 48.JPG";
+            cat[48] = "static/pics/images 49.JPG";
+            cat[49] = "static/pics/images 50.JPG";
+            cat[50] = "static/pics/images 51.JPG";
+            cat[51] = "static/pics/52.JPG";
+            cat[52] = "static/pics/53.JPG";
+            cat[53] = "static/pics/54.JPG";
+            cat[54] = "static/pics/55.JPG";
+            cat[55] = "static/pics/56.jpeg";
+            cat[56] = "static/pics/57.JPG";
+            cat[57] = "static/pics/58.JPG";
+            cat[58] = "static/pics/59.JPG";
+            cat[59] = "static/pics/60.JPG";
+            cat[60] = "static/pics/61.JPG";
+
+            var index = Math.floor(Math.random() * 61);
+            return document.getElementById("result").innerHTML = '<img src="'+cat[index]+'" width=100% align="center" />';
+
+        }
+    </script>
+    <div class="button" align="center">
+        <button class="button-74" role="button" align="center" onclick="generatePic()">Get a cat right meow</button>
+    </div>
+    <br><br>
+    <div class="catbox" id="result" align="center"> </div>
+
+
+</body>
+</html>
+
